@@ -1,0 +1,8 @@
+.buttons{
+    text-decoration: none;
+    color: white;
+}
+.buttons:hover{
+    color: white;
+    text-decoration: none;
+}
