@@ -29,3 +29,16 @@
     font-size: 2rem;
     padding-bottom: 50px;
 }
+
+.fa-check {
+    color: green;
+}
+
+.fa-times {
+    color: red;
+}
+
+th {
+    font-size: 19px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
