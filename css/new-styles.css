@@ -1,19 +1,31 @@
-.buttons{
+.buttons {
     text-decoration: none;
     color: white;
 }
-.buttons:hover{
+
+.buttons:hover {
     color: white;
     text-decoration: none;
 }
-.logos{
+
+.logos {
     max-width: 80%;
     max-height: 80%;
     margin-left: auto;
     margin-right: auto;
 
 }
-.middles{
+
+.middles {
     display: flex;
-    
-} 
+
+}
+
+.center {
+    text-align: center;
+}
+
+.packages-title {
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
