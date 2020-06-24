@@ -1,13 +1,5 @@
-RewriteEngine on
-
-# Przekierowanie domeny
-
-RewriteCond %{SERVER_PORT} !^443$ [OR]
-RewriteCond %{HTTP_HOST} !^localit\.pl$ [NC] 
-RewriteRule ^(.*)$ https://localit\.pl/$1 [R=301,L]
-
-# Przekierowanie 301
-RewriteRule ^index.html https://localit.pl [R=301,L]
-RewriteRule ^oferta.html https://localit.pl/oferta.html [R=301,L]
+User-Agent: *
+Disallow: 
+Allow: /
 
 Sitemap: http://localit.pl/sitemap.xml
