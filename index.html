@@ -60,7 +60,7 @@
     <header class="masthead">
         <div class="container">
             <div class="masthead-subheading">
-                <h1>Local IT <br> Strony Internetowe Wsparcie IT</h1>
+                <h1>Wsparcie IT<br> Strony Internetowe </h1>
             </div>
             <div class="masthead-heading text-uppercase">
                 <h2>Technologia Blisko Ciebie</h2>
@@ -326,31 +326,31 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v7.0'
-    });
-  };
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v7.0'
+            });
+        };
 
-  (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
-<!-- Your Chat Plugin code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="111177387306984"
-logged_in_greeting="Witamy w Local IT, zapraszamy do kontaktu. Odpowiemy tak szybko jak to możliwe."
-logged_out_greeting="Witamy w Local IT, zapraszamy do kontaktu. Odpowiemy tak szybko jak to możliwe.">
-</div>
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="111177387306984"
+        logged_in_greeting="Witamy w Local IT, zapraszamy do kontaktu. Odpowiemy tak szybko jak to możliwe."
+        logged_out_greeting="Witamy w Local IT, zapraszamy do kontaktu. Odpowiemy tak szybko jak to możliwe.">
+    </div>
 </body>
 
 </html>
